@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-        Thusikaran
+        Thusikaran love Vanuja
     </>
   )
 }
