@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Particles from './component/Particles'
 import GooeyNav from './component/GooeyNav'
+import img from './Thusi.png';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +15,7 @@ function App() {
   { label: "About", href: "#" },
   { label: "Contact", href: "#" },
 ];
+
 
   return (
     <>
@@ -40,6 +43,10 @@ function App() {
               colors={[1, 2, 3, 1, 2, 3, 1, 4]}
             />
           </div>
+       </div>
+       <div className='home-content'>
+          <div className='home-text'><h1>Hello <br /> I'm Thusikaran <br /> Software Engineer</h1></div>
+          <div className='home-image'><img src={img} alt="Profile"  style={{width:'200px'}}/></div>
        </div>
     </>
   )
