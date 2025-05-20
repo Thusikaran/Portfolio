@@ -45,8 +45,12 @@ function App() {
           </div>
        </div>
        <div className='home-content'>
-          <div className='home-text'><h1>Hello <br /> I'm Thusikaran <br /> Software Engineer</h1></div>
-          <div className='home-image'><img src={img} alt="Profile"  style={{width:'200px'}}/></div>
+          <div className='home-text'>
+              <h1>Hello</h1>
+              <h1>I'm Thusikaran</h1>
+              <h1> Software Engineer</h1>
+            </div>
+          <div className='home-image'><img src={img} alt="Profile" /></div>
        </div>
     </>
   )
